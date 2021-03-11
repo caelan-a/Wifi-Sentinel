@@ -6,14 +6,6 @@
 *** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
-
-
 
 <!-- PROJECT LOGO -->
 <br />
@@ -27,14 +19,6 @@
   <p align="center">
     A service that runs on a Raspberry Pi Zero that identifies and logs wifi devices entering your home.
     <br />
-    <a href="https://github.com/caelan-a/wifi-sentinel"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="https://github.com/caelan-a/wifi-sentinel">View Demo</a>
-    ·
-    <a href="https://github.com/caelan-a/wifi-sentinel/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/caelan-a/wifi-sentinel/issues">Request Feature</a>
   </p>
 </p>
 
@@ -65,8 +49,6 @@
     <li><a href="#acknowledgements">Acknowledgements</a></li>
   </ol>
 </details>
-
-
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
