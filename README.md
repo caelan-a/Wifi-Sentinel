@@ -49,7 +49,7 @@ You will need a Raspberry Pi Zero W to use this project, along with an appropria
 
 To get a local copy up and running follow these simple steps.
 
-1. Download the Pi Zero W image from [https://drive.google.com/file/d/1mrqmFwpzZbYNekKgEHhS3eVV6pR8ofCn/view?usp=sharing](here).
+1. Download the Pi Zero W image from [Here](https://drive.google.com/file/d/1mrqmFwpzZbYNekKgEHhS3eVV6pR8ofCn/view?usp=sharing).
 2. Using [Raspberry Pi Imager](https://www.raspberrypi.org/software/) flash it onto your Pi Zero W's SD card.
 3. Load the SD card and connect the Pi to power.
 4. After connecting your keyboard and HDMI, login with credentials [Username: pi, Password: raspberry]
