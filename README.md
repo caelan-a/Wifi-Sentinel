@@ -17,7 +17,7 @@
   <h3 align="center">Wifi Sentinel</h3>
 
   <p align="center">
-    A service that runs on a Raspberry Pi Zero that identifies and logs wifi devices entering your home.
+    A service that runs on a Raspberry Pi Zero to identify and logs wifi devices entering your home.
     <br />
   </p>
 </p>
@@ -25,7 +25,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-![](demo.mp4)
+![](demo.gif)
 
 Here's a blank template to get started:
 **To avoid retyping too much info. Do a search and replace with your text editor for the following:**
