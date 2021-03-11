@@ -34,7 +34,7 @@ This project is an exploration of IoT and is completely self contained on a Rasp
 All wifi enabled devices continuously broadcast packets called probe requests to locate access points such as routers.
 These probe requests are data packets which contain it's MAC address. Wifi Sentinel continously listens for these probe requests and logs them, it then cross references with devices that have connected to the same network as it to determine it's hostname and if it can be trusted. It serves this data in a simple dashboard running on an php enabled Apache2 webserver. 
 
-Devices now have the ability to send randomised MAC addresses to increase user privacy (which is a good thing!). For further exploration, this project could be extended to make use of the following [paper](https://arxiv.org/abs/1703.02874v1) describing ways around this.
+Devices now have the ability to send randomised MAC addresses to increase user privacy (which is a good thing!). For further exploration, this project could be extended using this [paper](https://arxiv.org/abs/1703.02874v1) which describes ways around it.
 ### Built With
 
 * [Raspbian](https://www.aircrack-ng.org/doku.php?id=airodump-ng)
@@ -49,7 +49,7 @@ You will need a Raspberry Pi Zero W to use this project, along with an appropria
 
 To get a local copy up and running follow these simple steps.
 
-1. Download the Pi Zero W image from [](here).
+1. Download the Pi Zero W image from [https://drive.google.com/file/d/1mrqmFwpzZbYNekKgEHhS3eVV6pR8ofCn/view?usp=sharing](here).
 2. Using [Raspberry Pi Imager](https://www.raspberrypi.org/software/) flash it onto your Pi Zero W's SD card.
 3. Load the SD card and connect the Pi to power.
 4. After connecting your keyboard and HDMI, login with credentials [Username: pi, Password: raspberry]
@@ -67,7 +67,7 @@ To get a local copy up and running follow these simple steps.
    ```sh
    sudo reboot now
    ```
-7. The following service will now start up, you can tweak these in /etc/rc.local
+7. 2 daemons will be launched which you can tweak in /etc/rc.local
 8. Use following to find IP of pi
    ```sh
     iwconfig
