@@ -32,7 +32,7 @@ Please Note: This project is for educational purposes only. This should not be u
 This project is an exploration of IoT and is completely self contained on a Raspberry Pi Zero W.
 
 All wifi enabled devices continuously broadcast packets called probe requests to locate access points such as routers.
-These probe requests are data packets which contain it's MAC address. Wifi Sentinel continously listens for these probe requests and logs them, it then cross references with devices that have connected to the same network to determine it's hostname and if it can be trusted. It serves this data in a simple dashboard running on an php enabled Apache2 webserver. 
+These probe requests are data packets which contain it's MAC address. Wifi Sentinel continously listens for these probe requests and logs them, it then cross references with devices that have connected to the same network as it to determine it's hostname and if it can be trusted. It serves this data in a simple dashboard running on an php enabled Apache2 webserver. 
 
 Devices now have the ability to send randomised MAC addresses to increase user privacy (which is a good thing!). For further exploration, this project could be extended to make use of the following [paper](https://arxiv.org/abs/1703.02874v1) describing ways around this.
 ### Built With
