@@ -19,7 +19,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/caelan-a/wifi-sentinel">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="html/images/security.svg" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">Wifi Sentinel</h3>
